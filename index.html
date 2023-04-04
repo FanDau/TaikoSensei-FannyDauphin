@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taiko Sensei - Accueil</title>
+    <meta name="description" content="L'association Taiko Sensei "> <!--A completer-->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container nav-display">
+                <div class="brand">
+                    <img class="navbar-brand logo" src="img/logo.png" alt="Dessin tambour japonais avec des fleurs">
+                    Taiko Sensei
+                </div>
+
+                <div class="menu">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="activities.html">Activités</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="medias.html">Medias</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="content"></main>
+
+    <footer class="footer-display">
+        <div class="container pt-3">
+            <div class="row"> 
+                <div class="col-md-6 py-3"><!-- Partie pour les contacts-->
+                    <h6>Association Taiko Sensei</h6>
+                    <div class="row">
+                        <span>Nous contacter :</span>
+                        <ul class="list-unstyled contacts">
+                            <li><img src="img/telephone-fill.svg" width="24" height="24">04 67 01 02 03</li>
+                            <li><img src="img/envelope-at-fill.svg" width="24" height="24">taiko.sensei@email.com</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="col-md-5 offset-md-1 py-3"><!-- Partie pour la newsletter-->
+                    <form>
+                        <h6>Newsletter</h6>
+                        <p>Inscrivez-vous pour ne rien manquer !</p>
+                        <div class="newsletter">
+                            <label for="newsletter" class="visually-hidden">Adresse Email</label>
+                            <input id="newsletter" type="email" class="form-email" placeholder="Adresse Email">
+                            <button class="btn-email" type="button">S'inscrire</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column flex-sm-row justify-content-between pt-1 my-2 border-top">
+                <p>© Taiko Sensei - 2023 / Tous droits réservés</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="ms-3"><a class="link-body-emphasis" href="#">
+                            <img src="img/facebook.svg" class="bi" width="24" height="24">
+                        </a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#">
+                            <img src="img/instagram.svg" class="bi" width="24" height="24">
+                        </a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#">
+                            <img src="img/youtube.svg" class="bi" width="24" height="24" fill="red">
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!--Script dedicated to bootstrap-->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
