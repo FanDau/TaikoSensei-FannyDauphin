@@ -14,8 +14,8 @@
     justify-content: space-around;
 }
 
-.navbar  {
-    border-bottom: 1px solid  rgb(1, 1, 66);
+.navbar {
+    border-bottom: 1px solid rgb(1, 1, 66);
     background-color: white;
 }
 
@@ -35,17 +35,9 @@
     width: 4em;
 }
 
-/*******************/
-
-.content {
-    margin-top: 85px;
-    background-color: rgba(1, 1, 66, 0.034);;
-}
-
-
 /*CSS for footer and footer menu*/
 .footer-display {
-    border-top: 1px solid  rgb(1, 1, 66);
+    border-top: 1px solid rgb(1, 1, 66);
 }
 
 .contacts {
@@ -87,6 +79,11 @@
 }
 
 /*CSS for content*/
+.content {
+    margin-top: 85px;
+    background-color: rgba(1, 1, 66, 0.034);
+}
+
 .content-title {
     font-family: "Kavivanar", sans-serif;
     text-align: center;
@@ -104,7 +101,7 @@
     flex-wrap: wrap-reverse;
 }
 
-.article-content{
+.article-content {
     text-align: justify;
 }
 
@@ -126,4 +123,10 @@
     width: 180px;
     border-radius: 50%;
     margin: 10px;
+}
+
+/*CSS for table*/
+th, td {
+    text-align: center;
+    vertical-align: middle;
 }

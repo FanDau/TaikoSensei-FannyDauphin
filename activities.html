@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -15,14 +15,14 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container nav-display">
                 <div class="brand">
                     <img class="navbar-brand logo" src="img/logo.png" alt="Dessin tambour japonais avec des fleurs">
                     Taiko Sensei
                 </div>
 
-                <div>
+                <div class="menu">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +34,7 @@
                                 <a class="nav-link" href="index.html">Accueil</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link  active" aria-current="page" href="activities.html">Activités</a>
+                                <a class="nav-link active" aria-current="page" href="activities.html">Activités</a>
                             </li>
                         </ul>
                     </div>
@@ -44,9 +44,67 @@
         </nav>
     </header>
 
+    <main class="content">
+        <!--Association introduction-->
+        <section class="container">
+            <h2 class="content-title">Les cours</h2>
+            <div class="row">
+                <p>Les cours ont lieu dans différentes <b>Maison pour tous</b> de Montpellier :</p>
+                <ul class="list-unstyled">
+                    <li>Georges Brassens</li>
+                    <li>Frida Kahlo</li>
+                    <li>Albert Camus</li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="table-responsive-md">
+                    <table class="table table-bordered">
+                        <thead class="table-dark">
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">Lundi</th>
+                                <th scope="col">Mardi</th>
+                                <th scope="col">Mercredi</th>
+                                <th scope="col">Jeudi</th>
+                                <th scope="col">Vendredi</th>
+                                <th scope="col">Samedi</th>
+                                <th scope="col">Dimanche</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" rowspan="2" class="table-dark">Matin</th>
+                                <td rowspan="2"></td>
+                                <td rowspan="2" class="table-warning">12h-14h<br>Georges Brassens</td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2" class="table-warning">9h-11h<br>Georges Brassens</td>
+                                <td class="table-warning">8h-10h *<br>Albert Camus</td>
+                            </tr>
+                            <tr>
+                                <td class="table-warning">10h-12h<br>Albert Camus</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" rowspan="2" class="table-dark">Après-midi</td>
+                                <td rowspan="2" class="table-warning">17h30-19h30<br>Frida Kahlo</td>
+                                <td rowspan="2" class="table-warning">16h-18h<br>Frida Kahlo</td>
+                                <td class="table-warning">13h-15h<br>Albert Camus</td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2" class="table-warning">18h-20h *<br>Albert Camus</td>
+                                <td rowspan="2"></td>
+                                <td rowspan="2"></td>
+                            </tr>
+                            <tr>
+                                <td class="table-warning">16h-18h<br>Frida Kahlo</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
 
-    <main class="content"></main>
-    
     <footer class="footer-display">
         <div class="container pt-3">
             <div class="row">
