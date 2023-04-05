@@ -45,18 +45,33 @@
     </header>
 
     <main class="content">
-        <!--Association introduction-->
+        <!--Courses introduction-->
         <section class="container">
-            <h2 class="content-title">Les cours</h2>
-            <div class="row">
+            <h2 class="content-title">Cours et Tarifs</h2>
+            <div class="row courses-info">
+                <p>Les cours sont dispensés pendant <b>deux heures</b>. Les élèves n'ont pas besoin d'amener leur
+                    intrument, l'association installent les tambours dans la salle avant chaque classe. Cependant,
+                    si certains élèves possèdent des baguettes, ils peuvent bien sûr les apporter avec eux.</p>
+                <p>La pratique du Taiko demande une certaine liberté de mouvement. Nous recommandons aux élèves de
+                    venir habillés avec <b>des vêtements souples ou en tenue de sport.</b> Les salles ne disposant pas
+                    de
+                    vestiaire, le seul endroit pour se changer sont les sanitaires.</p>
                 <p>Les cours ont lieu dans différentes <b>Maison pour tous</b> de Montpellier :</p>
-                <ul class="list-unstyled">
-                    <li>Georges Brassens</li>
-                    <li>Frida Kahlo</li>
-                    <li>Albert Camus</li>
+                <ul class="list-unstyled d-flex flex-column align-items-center">
+                    <li><b>Georges Brassens</b></li>
+                    <li><em>Place Jacques Brel, 34080 Montpellier</em></li>
+                    <li><b>Frida Kahlo</b></li>
+                    <li><em>240 Rue Claude Lévi Strauss, 34000 Montpellier</em></li>
+                    <li><b>Albert Camus</b></li>
+                    <li><em>118 Allée Maurice Bonafos, 34070 Montpellier</em></li>
                 </ul>
+                <p>Selon le type d'adhésion choisie en début d'année, l'élève peut choisir d'assister à un ou deux cours
+                    par semaine. L'élève choisit les créneaux horaires des cours auxquels il souhaite assister en début
+                    d'année. L'élève peut choisir de changer de créneaux horaires en cours d'année, cependant, cela
+                    dépendra des places encore disponibles.</p>
             </div>
-            <div class="row">
+            <div class="row my-4">
+                <!--Schedule table-->
                 <div class="table-responsive-md">
                     <table class="table table-bordered">
                         <thead class="table-dark">
@@ -101,6 +116,43 @@
                         </tbody>
                     </table>
                 </div>
+                <p class="schedule-note">* Ces cours peuvent être déplacés si l'association donne une représentation.
+                </p>
+            </div>
+
+            <!--Prices information-->
+            <div class="row d-flex">
+                <h5 class="price-title">Deux formules pour s'adapter à votre pratique</h5>
+                <div class="col-md-6 price-info">
+                    <h6><u>Première formule</u></h6>
+                    <ul class="list-unstyled">
+                        <li>2h de cours par semaine</li>
+                        <li>Participation à deux ateliers dans l'année</li>
+                    </ul>
+                    <p class="price">300€ / année</p>
+                </div>
+                <div class="col-md-6 price-info">
+                    <h6><u>Seconde formule</u></h6>
+                    <ul class="list-unstyled">
+                        <li>4h de cours par semaine</li>
+                        <li>Participation à cinq ateliers dans l'année</li>
+                        <li>Participation aux spectacles</li>
+                    </ul>
+                    <p class="price">570€ / année</p>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <button class="btn-contact">
+                    <a href="mailto:taiko.sensei@email.com">Nous contacter</a>
+                </button>
+            </div>
+        </section>
+
+        <!--Events information-->
+        <section class="container">
+            <h2 class="content-title">Ateliers et Concerts</h2>
+            <div class="row courses-info">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi laborum deserunt voluptatem deleniti totam voluptas repellat aperiam provident illo. Quibusdam labore at molestias quas voluptate earum, iure aperiam nesciunt impedit.</p>
             </div>
         </section>
     </main>
@@ -128,7 +180,7 @@
                         <div class="newsletter">
                             <label for="newsletter" class="visually-hidden">Adresse Email</label>
                             <input id="newsletter" type="email" class="form-email" placeholder="Adresse Email">
-                            <button class="btn-email" type="button">S'inscrire</button>
+                            <button class="btn-email" type="button" action="index.html">S'inscrire</button>
                         </div>
                     </form>
                 </div>

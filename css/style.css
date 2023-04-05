@@ -5,7 +5,7 @@
 
 * {
     box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*CSS for navigation menu and logo*/
@@ -84,7 +84,7 @@
     background-color: rgba(1, 1, 66, 0.034);
 }
 
-.content-title {
+.content-title, .price-title  {
     font-family: "Kavivanar", sans-serif;
     text-align: center;
     padding: 1em;
@@ -105,12 +105,14 @@
     text-align: justify;
 }
 
+/*CSS for teachers introduction section*/
 .teachers-display {
     display: flex;
     align-items: start;
 }
 
-.teachers-content {
+.teachers-content,
+.courses-info {
     display: flex;
     text-align: justify;
     align-items: center;
@@ -125,8 +127,47 @@
     margin: 10px;
 }
 
-/*CSS for table*/
-th, td {
+/*CSS for schedule table*/
+th,
+td {
     text-align: center;
     vertical-align: middle;
+}
+
+.schedule-note {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0;
+    font-size: 0.7em;
+    font-style: italic;
+}
+
+/*CSS for price information*/
+.price-info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price {
+    color: red;
+    font-weight: bold;
+}
+
+.btn-contact {
+    font-size: 1em;
+    text-align: center;
+    background-color: rgb(1, 1, 66);
+    border: none;
+    border-radius: 10px;
+    padding: 4px 20px;
+    color: white;
+    width: auto;
+    margin: 2%;
+}
+
+.btn-contact > a {
+    text-decoration: none;
+    color: white;
 }
