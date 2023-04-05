@@ -1,12 +1,14 @@
 @font-face {
     font-family: 'Kavivanar';
-    src: url("font/Kavivanar-Regular.ttf");
+    src: url("../font/Kavivanar-Regular.ttf");
 }
 
 * {
     box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/*CSS for navigation menu and logo*/
 .nav-display {
     display: flex;
     justify-content: space-around;
@@ -14,6 +16,7 @@
 
 .navbar  {
     border-bottom: 1px solid  rgb(1, 1, 66);
+    background-color: white;
 }
 
 .active {
@@ -32,11 +35,15 @@
     width: 4em;
 }
 
+/*******************/
+
 .content {
-    height: 50vh;
-    background-color: rgba(0, 0, 0, 0.158);
+    margin-top: 85px;
+    background-color: rgba(1, 1, 66, 0.034);;
 }
 
+
+/*CSS for footer and footer menu*/
 .footer-display {
     border-top: 1px solid  rgb(1, 1, 66);
 }
@@ -77,4 +84,46 @@
     color: white;
     flex-grow: 1;
     margin: 2%;
+}
+
+/*CSS for content*/
+.content-title {
+    font-family: "Kavivanar", sans-serif;
+    text-align: center;
+    padding: 1em;
+}
+
+.img-article {
+    width: 100%;
+    margin: 2px;
+}
+
+.article-display {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.article-content{
+    text-align: justify;
+}
+
+.teachers-display {
+    display: flex;
+    align-items: start;
+}
+
+.teachers-content {
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.avatar {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin: 10px;
 }
