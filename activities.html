@@ -152,7 +152,50 @@
         <section class="container">
             <h2 class="content-title">Ateliers et Concerts</h2>
             <div class="row courses-info">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi laborum deserunt voluptatem deleniti totam voluptas repellat aperiam provident illo. Quibusdam labore at molestias quas voluptate earum, iure aperiam nesciunt impedit.</p>
+                <p>L'association propose une série d'ateliers <b>pour les étudiants de tous les niveaux</b>. Les
+                    ateliers sont conçus pour donner aux étudiants une expérience pratique du Taiko, tout en
+                    approfondissant leur compréhension de l'instrument et de sa place dans la culture japonaise. </p>
+                <p>Chaque atelier est soigneusement planifié pour répondre aux besoins des différents niveaux de
+                    compétence des étudiants. Les débutants apprendront les bases du Taiko, y compris les techniques de
+                    frappe, de posture et de respiration, tandis que les étudiants plus avancés se concentreront sur des
+                    morceaux plus complexes et des techniques de jeu avancées. Les ateliers seront également l'occasion
+                    pour les étudiants de se familiariser avec la musique traditionnelle japonaise et d'explorer la
+                    signification culturelle derrière chaque pièce. <b>L'atelier est aussi l'occasion de répéter pour
+                        les
+                        représentations sur scene.</b></p>
+                <p>Nous sommes impatients de travailler avec tous nos étudiants pour les aider à développer leur amour
+                    pour le Taiko et leur compréhension de la culture japonaise. Rejoignez-nous pour ces ateliers
+                    passionnants et découvrez l'énergie et la puissance du Taiko!</p>
+                <p>Les ateliers sont généralement organisés <b>le samedi après-midi, de 14h à 18h,</b> et sont suivis
+                    d'un repas partagé ensemble.</p>
+            </div>
+            <h5 class="price-title">Les prochaines dates de concert</h5>
+            <div class="row justify-content-evenly pb-5">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Place de la Mairie, MARSEILLE</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">15 juillet, 19h</h6>
+                        <p class="card-text">Festival annuel de musique et de danse japonaise. L'événement vise à
+                            promouvoir la culture japonaise, en mettant l'accent sur la musique et les danses
+                            traditionnelles.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Parc des expositions, NICE</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">23 septembre, 14h</h6>
+                        <p class="card-text">Exposition internationale d'art et de culture japonaise. L'association va
+                            présenter la musique traditionnelle jouée lors des matsuris aux visiteurs de l'exposition.
+                        </p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Salle des fêtes, TOULOUSE</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">29 décembre, 20h</h6>
+                        <p class="card-text">A l'occasion des célébrations de la nouvelle année à venir, les professeurs, accompagnés d'amis pratiquant le Taiko depuis plusieurs années se produiront sur scene.</p>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
@@ -180,7 +223,8 @@
                         <div class="newsletter">
                             <label for="newsletter" class="visually-hidden">Adresse Email</label>
                             <input id="newsletter" type="email" class="form-email" placeholder="Adresse Email">
-                            <button class="btn-email" type="button" action="index.html">S'inscrire</button>
+                            <button class="btn-email" type="button" data-bs-toggle="modal"
+                                data-bs-target="#mailModal">S'inscrire</button>
                         </div>
                     </form>
                 </div>
@@ -202,6 +246,24 @@
             </div>
         </div>
     </footer>
+
+    <div class="modal" tabindex="-1" id="mailModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header justify-content-center">
+                    <h5 class="modal-title">Newsletter</h5>
+                </div>
+                <div class="modal-body  justify-content-center">
+                    <p style="text-align: center;">Si votre adresse email a bien été saisie, nous avons pris en compte
+                        votre demande d'abonnement ! </p>
+                    <p style="text-align: center;"><b>Merci à vous !</b></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-email" data-bs-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!--Script dedicated to bootstrap-->
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

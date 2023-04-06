@@ -53,7 +53,8 @@
                         <b>Montpellier</b>.
                         Fondée en 2018 par Lea et Moriko, l'association a pour but de faire découvrir et de partager la
                         culture
-                        japonaise à travers la pratique de cet instrument emblématique.</p>
+                        japonaise à travers la pratique de cet instrument emblématique.
+                    </p>
                     <p>L'association organise régulièrement des <strong> cours et des ateliers pour tous les
                             niveaux</strong>, du débutant
                         à
@@ -93,9 +94,8 @@
                         alt="Plusieurs modèles de tambours japonais différents.">
                     <img class="img-article" src="img/matsuri.jpg"
                         alt="Joueuses de Taiko, jouant dans la rue lors d'une matsuri (festival japonais).">
-                    <img class="img-article" src="img/kodo.jpg"
-                        alt="Le groupe japonais Kodo en performance sur scene.">                    
-                    
+                    <img class="img-article" src="img/kodo.jpg" alt="Le groupe japonais Kodo en performance sur scene.">
+
                 </div>
                 <div class="col-lg-7 article-content">
                     <p>Les tambours Taiko sont généralement fabriqués à partir d'un seul tronc d'arbre, ce qui les rend
@@ -186,7 +186,8 @@
                     <img class="avatar" src="img/lea.png" alt="">
                 </div>
                 <div class="col-lg-6 teachers-content">
-                    <p><b>Moriko</b>, originaire du Japon, est une enseignante expérimentée. Arrivée à Montpellier en 2012,
+                    <p><b>Moriko</b>, originaire du Japon, est une enseignante expérimentée. Arrivée à Montpellier en
+                        2012,
                         elle a immédiatement commencé à partager sa passion pour la musique et le Taiko avec la
                         communauté locale. Connue pour sa technique de jeu exceptionnelle et sa capacité à transmettre
                         son savoir, ses élèves apprécient sa patience et sa bienveillance.</p>
@@ -219,7 +220,7 @@
                         <div class="newsletter">
                             <label for="newsletter" class="visually-hidden">Adresse Email</label>
                             <input id="newsletter" type="email" class="form-email" placeholder="Adresse Email">
-                            <button class="btn-email" type="button">S'inscrire</button>
+                            <button class="btn-email" type="button" data-bs-toggle="modal" data-bs-target="#mailModal">S'inscrire</button>
                         </div>
                     </form>
                 </div>
@@ -242,6 +243,23 @@
             </div>
         </div>
     </footer>
+
+    <div class="modal" tabindex="-1" id="mailModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header justify-content-center">
+                    <h5 class="modal-title">Newsletter</h5>
+                </div>
+                <div class="modal-body  justify-content-center">
+                    <p style="text-align: center;">Si votre adresse email a bien été saisie, nous avons pris en compte votre demande d'abonnement ! </p>
+                    <p style="text-align: center;"><b>Merci à vous !</b></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-email" data-bs-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!--Script dedicated to Bootstrap-->
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
